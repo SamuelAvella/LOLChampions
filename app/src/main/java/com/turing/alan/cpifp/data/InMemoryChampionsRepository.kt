@@ -43,7 +43,7 @@ class InMemoryChampionsRepository private constructor(): ChampionsRepository {
             Champion(
                 6,
                 "Teemo",
-                "The Swift Scout",
+                "El más guarro pero por eso me encanta (jeje je)",
                 "Undeterred by even the most dangerous and threatening of missions, Teemo scouts the world with boundless enthusiasm and a smile on his face.",
                 "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Teemo_0.jpg"
             )
