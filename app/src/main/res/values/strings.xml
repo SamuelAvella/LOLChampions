@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">LOLChampions</string>
+    <string name="championName">Nombre del Campeon</string>
+    <string name="championTitle">Titulo del campeon</string>
+    <string name="championLore">Lore del campeon</string>
+    <string name="imageDescription">Imagen del campeon</string>
 </resources>
