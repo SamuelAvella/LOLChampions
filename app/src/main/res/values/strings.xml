@@ -4,4 +4,6 @@
     <string name="championTitle">Titulo del campeon</string>
     <string name="championLore">Lore del campeon</string>
     <string name="imageDescription">Imagen del campeon</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
