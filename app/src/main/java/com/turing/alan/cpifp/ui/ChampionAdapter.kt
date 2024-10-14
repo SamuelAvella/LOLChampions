@@ -16,7 +16,6 @@ class ChampionAdapter : ListAdapter<Champion, ChampionAdapter.ChampionViewHolder
 
     class ChampionViewHolder(private val binding: ChampionListItemBinding) : RecyclerView.ViewHolder(binding.root) {
         fun bind(champion: Champion){
-            binding.championDescription.text = champion.lore
             binding.championName.text = champion.name
             binding.championTitle.text =champion.title
             binding.championImage.load(champion.imageUrl) {
