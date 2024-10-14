@@ -13,12 +13,12 @@ import com.turing.alan.cpifp.databinding.ActivityMainBinding
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
-    private val repository = InMemoryChampionsRepository.getInstance()
+    /**private val repository = InMemoryChampionsRepository.getInstance()
 
     override fun onResume() {
         super.onResume()
         (binding.recyclerViewChampions.adapter as ChampionAdapter).submitList(repository.getChampions())
-    }
+    }*/
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -33,8 +33,9 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
-        binding.recyclerViewChampions.adapter = ChampionAdapter()
+        /**binding.recyclerViewChampions.adapter = ChampionAdapter()
 
         (binding.recyclerViewChampions.adapter as ChampionAdapter).submitList(repository.getChampions())
+        */
     }
 }
